@@ -1,0 +1,64 @@
+.root {
+  -fx-background-color: transparent; /* Fundo transparente */
+}
+
+.side-menu {
+  -fx-background-color: #007ef6; /* Cor mais viva baseada na cor da logo do Bluetooth */
+  -fx-padding: 20px;
+  -fx-spacing: 8px; /* Espaçamento entre os nós filhos */
+  -fx-alignment: top-center;
+  -fx-border-radius: 10px; /* Borda arredondada */
+}
+
+.menu-button {
+  -fx-background-color: #4ea8f6; /* Cor mais clara */
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+  -fx-padding: 10px; /* Espaçamento interno */
+  -fx-min-width: 150px; /* Largura mínima ajustada */
+  -fx-max-width: 150px; /* Largura máxima ajustada para combinar com a largura mínima */
+}
+
+.menu-button:hover {
+  -fx-background-color: #6db8ff; /* Cor mais clara no hover */
+}
+
+.button-label:hover {
+  -fx-background-color: #6db8ff; /* Cor mais clara */
+}
+
+.content-label {
+  -fx-font-size: 20px;
+  -fx-text-fill: #e0e1dd;
+  -fx-wrap-text: true;
+}
+
+.window-controls {
+  -fx-background-color: #007ef6; /* Cor do topo da janela */
+  -fx-padding: 10px;
+  -fx-border-radius: 10px; /* Borda arredondada */
+}
+
+.window-controls Button {
+  -fx-background-color: transparent;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-min-width: 40px; /* Largura mínima */
+  -fx-max-width: Infinity;
+  -fx-padding: 8px; /* Espaçamento interno */
+  -fx-border-radius: 10px; /* Borda arredondada */
+}
+
+.window-controls Button:hover {
+  -fx-background-color: #4ea8f6; /* Cor mais clara no hover */
+}
+
+.label {
+  -fx-background-color: #4ea8f6; /* Cor de fundo da label */
+  -fx-text-fill: white;
+  -fx-padding: 10px; /* Ajuste conforme necessário */
+  -fx-border-radius: 10px; /* Borda arredondada */
+}

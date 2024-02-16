@@ -1,0 +1,55 @@
+.
+├── estrutura_projeto.txt
+├── pom.xml
+├── src
+│   └── main
+│       ├── java
+│       │   ├── com
+│       │   │   └── seuapp
+│       │   │       ├── App.java
+│       │   │       ├── AppController.java
+│       │   │       ├── SystemInfo.java
+│       │   │       └── bluetooth
+│       │   │           └── BluetoothManager.java
+│       │   └── module-info.java
+│       └── resources
+│           ├── css
+│           │   └── style.css
+│           ├── fxml
+│           │   └── MainView.fxml
+│           └── icons
+│               ├── chat.png
+│               ├── discover.png
+│               ├── log.png
+│               ├── manage.png
+│               └── settings.png
+└── target
+    ├── classes
+    │   ├── com
+    │   │   └── seuapp
+    │   │       ├── App.class
+    │   │       ├── AppController.class
+    │   │       ├── SystemInfo.class
+    │   │       └── bluetooth
+    │   │           └── BluetoothManager.class
+    │   ├── css
+    │   │   └── style.css
+    │   ├── fxml
+    │   │   └── MainView.fxml
+    │   ├── icons
+    │   │   ├── chat.png
+    │   │   ├── discover.png
+    │   │   ├── log.png
+    │   │   ├── manage.png
+    │   │   └── settings.png
+    │   └── module-info.class
+    ├── generated-sources
+    │   └── annotations
+    └── maven-status
+        └── maven-compiler-plugin
+            └── compile
+                └── default-compile
+                    ├── createdFiles.lst
+                    └── inputFiles.lst
+
+24 directories, 28 files
